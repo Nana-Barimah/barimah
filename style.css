@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75,300;100,300;100,400&family=Megrim&family=Roboto:wght@100;300;500&family=Rubik+Glitch&display=swap');
+body{
+        margin: auto;
+        padding: 0px;
+}
+
+header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: #412728; */
+        background-color: #010c13;
+}
+header h1 a{
+        font-family: 'Rubik Glitch';
+}
+
+a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin: 20px;
+}
+
+a:hover{
+        color: #ffffffd5;
+}
+
+header ul{
+        list-style: none;
+        padding: 0px;
+        display: flex;
+        margin:1px;
+        justify-content: space-between;
+}
+
+header ul a{
+        padding-left: 40px;
+        font-family: 'Fredoka';
+        width: 75;
+        font-weight: 300;
+}
+
+footer{
+        background-color: #010c13;
+}
+footer ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding: 0px;
+}
+
+footer p{
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Fredoka';
+        padding: 10px;
+}
+
+footer img{
+        width: 50px;
+        margin-top:20px;
+        background-color:  #ffffff;
+        border-radius: 24px;
+}
+footer ul img:hover{
+        background-color: #ffffffd5;
+        border-radius: 24px;
+}
