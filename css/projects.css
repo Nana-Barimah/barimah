@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75,300;100,300;100,400&family=Megrim&family=Roboto:wght@100;300;500&family=Rubik+Glitch&display=swap');
+
+body{
+        background-color: blue;
+        padding: auto;
+}
+main{
+        font-family: 'Fredoka';
+        /* display: flex; */
+        /* justify-content: center; */
+        padding: auto; 
+        align-items: center;
+}
+
+main div h1{
+        font-size: 50px;
+        text-align: center;
+        color: whitesmoke;
+}
+
+main ul{
+        width: 1200px;
+        list-style: none;
+        display: grid;
+        justify-content: space-between; 
+        grid-template-columns: 1fr 1fr;
+        gap: 50px 50px;
+}
+
+li:nth-last-of-type(2){
+        grid-column: 1 /span 2;
+}
+
+/* li:nth-last-of-type(1){
+        grid-column: 1 /span 2;
+} */
+
+li:nth-last-of-type(5){
+        grid-column: 1 /span 2;
+}
+
+
+li:nth-last-of-type(8){
+        grid-column: 1 /span 2;
+}
+
+main ul img{
+        width: 300px;
+        height: 250px;
+        object-fit: cover;
+}
+main li{
+        display: flex;
+        background: whitesmoke;
+        box-shadow: 4px 4px 8px black;
+        border-radius: 6px;
+        overflow: hidden;
+        margin: 0px;
+}
+
+
+
+main h2{
+        font-weight: 400;
+}
+
+.itemContent{
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+}
+
+.actions{
+        text-align: right;
+}
+.actions a{
+        text-decoration: none;
+        color: blue;
+        padding: 6px;
+        border-radius: 6px;
+}
+
+.actions a:hover{
+        background-color: rgba(0, 0, 255, 0.048);
+}

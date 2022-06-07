@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75,300;100,300;100,400&family=Megrim&family=Roboto:wght@100;300;500&family=Rubik+Glitch&display=swap');
+body{
+        margin: auto;
+        padding: 0px;
+}
+
+header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: #412728; */
+        background-color: rgb(1, 12, 19);
+}
+header h1 a{
+        font-family: 'Rubik Glitch';
+}
+
+footer a, header a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin: 20px;
+}
+
+a:hover{
+        color: #ffffffd5;
+}
+
+header ul{
+        list-style: none;
+        padding: 0px;
+        display: flex;
+        margin:1px;
+        justify-content: space-between;
+}
+
+header ul a{
+        padding-left: 40px;
+        font-family: 'Fredoka';
+        width: 75;
+        font-weight: 300;
+}
+
+
+footer{
+        background-color: #010c13;
+}
+footer ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
+
+footer p{
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Fredoka';
+        padding: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: 300;
+}
+
+footer img{
+        width: 50px;
+        margin-top:20px;
+        background-color:  #ffffff;
+        border-radius: 24px;
+}
+
+footer ul img:hover{
+        background-color: #ffffffd5;
+        border-width: 5px;
+}
+
+
+        
+main{
+        margin: 0px;
+        font-family: 'Fredoka';
+        font-size: 16px;
+        padding-left: 80px;
+        color: #5e6468;
+        padding-top: 250px;
+        padding-bottom: 300px;
+        background-image: linear-gradient(to right top, #000000, #0306ce,#1a1d22, #010c13, #010c13);
+}
+
+/* main h1{
+        font-family: 'Fredoka';
+        font-weight: 700;
+        font-size: 92px;
+} */
+
+main p{
+        padding-left: 10px;
+        margin: 0px;
+        font-weight: 300;
+        font-size: 30px;
+}
+
+/* #barimah{
+        font-weight: 700;
+} */
+#welcome em{
+        font-family: 'Rubik Glitch';
+        font-size: 70px;
+        border-radius: 32px;
+        background-color: rgb(17, 0, 255);
+        box-shadow: 4px 4px 8px #010c13;
+        padding: 16px 32px;
+}
+
+em:hover{
+        color: #e1e4ecc9;
+        background-color: rgb(17, 0, 255);
+        box-shadow: 2px 2px 4px #010c13;
+}
+
+main a{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 700;
+
+}
+div p a{
+        font-weight: 300;
+}
+
+section ul{
+        list-style:none;
+}
+section ul li{
+        margin: 0px;
+        margin-bottom: 5px;
+        padding: 16px;
+        color: #000000;
+        font-size: 20px;
+}
+
+#projects a{
+        /* border: 2px solid; */
+        border-radius: 16px;
+        padding: 16px 32px;
+        /* border-color: #010c13; */
+        color: #ffffff;
+        background-color: rgb(17, 0, 255);
+        box-shadow: 4px 4px 8px #010c13;
+}
+
+#projects a:hover{
+        color: #e1e4ecc9;
+}
+main a:hover{
+        color: #e1e4ecc9;;
+}
+
+#academia{
+        margin-bottom:  50px;
+}
+#academia strong{
+        font-size: 48px;
+        color: #010c13;
+}
+
+#web, #dev, #media, #dancer{
+        border-left: 6px solid rgb(255, 255, 255);
+}
+
+#me{
+        padding-left: 40px;
+}
+
+
