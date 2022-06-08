@@ -10,43 +10,36 @@ main{
         /* justify-content: center; */
         padding: auto; 
         align-items: center;
+        margin: 20px 60px;
 }
 
 main div h1{
-        font-size: 50px;
+        font-size: 3.125rem;
         text-align: center;
         color: whitesmoke;
 }
 
-main ul{
+/* main ul{
         width: 1200px;
         list-style: none;
         display: grid;
         justify-content: space-between; 
         grid-template-columns: 1fr 1fr;
         gap: 50px 50px;
-}
-
-li:nth-last-of-type(2){
-        grid-column: 1 /span 2;
-}
-
-/* li:nth-last-of-type(1){
-        grid-column: 1 /span 2;
 } */
 
-li:nth-last-of-type(5){
-        grid-column: 1 /span 2;
-}
-
-
-li:nth-last-of-type(8){
-        grid-column: 1 /span 2;
+main ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
 }
 
 main ul img{
-        width: 300px;
-        height: 250px;
+        width: 15rem;
+        height: 15rem;
         object-fit: cover;
 }
 main li{
@@ -55,17 +48,86 @@ main li{
         box-shadow: 4px 4px 8px black;
         border-radius: 6px;
         overflow: hidden;
-        margin: 0px;
+        margin: 0rem;
 }
-
-
 
 main h2{
         font-weight: 400;
 }
 
+main p{
+        font-size: 0.85rem;
+}
+
+.menu-btn{
+        width: 2rem;
+        height: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        display: none;
+}
+
+
+.menu-btn span{
+        width: 100%;
+        height: 3px;
+        background-color: whitesmoke;
+}
+
+/* side drawer styling */
+
+
+#side-drawer{
+        width: 100%;
+        height: 100%;
+        background-color: blue;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+}
+
+#side-drawer:target{
+        display: block;
+}
+
+#side-drawer header{        
+        height: 5rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0 5%;
+}
+#side-drawer ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 4rem 1rem;
+}
+
+#side-drawer li{ 
+        margin: 1rem 0;
+}
+
+#side-drawer a{
+        color: white;
+        font-size: 2rem;
+        font-family: 'Fredoka';
+        text-decoration: none;
+}
+
+#side-drawer a:hover{
+        color: #ffffffd5;
+        font-size: 2rem;
+        font-family: 'Fredoka';
+        text-decoration: none;
+}
+
 .itemContent{
-        padding: 24px;
+        padding: 1.5rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -78,10 +140,104 @@ main h2{
 .actions a{
         text-decoration: none;
         color: blue;
-        padding: 6px;
-        border-radius: 6px;
+        padding: 0.375rem;
+        border-radius: 0.375rem;
 }
 
 .actions a:hover{
         background-color: rgba(0, 0, 255, 0.048);
+}
+
+
+@media(max-width: 1207px){
+        #projects-catalog ul{
+                grid-template-columns: 100%;
+        }
+
+        main h1{
+                font-size: 1.5rem;
+        }
+
+        #main-header nav a{
+                display: none;
+        }
+        
+}
+
+@media(max-width: 750px){
+        header ul{
+                display: none;
+        }
+        .menu-btn{
+                display: flex;       
+        }
+}
+
+@media(max-width: 710px){
+        main ul img{
+                width: 12rem;
+                height: 12rem;
+                object-fit: cover;
+        }
+
+        .actions a{
+                font-size: 0.85rem;
+        }
+
+        main h2{
+                font-size:1rem;
+        }
+        main p{
+                font-size: 0.75rem;
+        }
+}
+
+@media(max-width: 530px){
+        main div h1{
+                font-size: 2.125rem;
+
+        }
+        
+        
+        main ul img{
+                width: 10rem;
+                height: 10rem;
+                object-fit: cover;
+        }
+
+        .actions a{
+                font-size: 0.75rem;
+        }
+
+        main h2{
+                font-size:0.751rem;
+        }
+        main p{
+                font-size: 0.55rem;
+        }
+}
+
+@media(max-width: 480px){
+        main div h1{
+                font-size: 1.125rem;
+
+        }
+
+        main ul img{
+                display: none;
+        }
+
+        .actions a{
+                font-size: 1rem;
+        }
+
+        main h2{
+                font-size:0.658rem;
+        }
+        main p{
+                font-size: 0.559rem;
+        }
+        .menu-btn{
+                display: flex;       
+        }
 }
