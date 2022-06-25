@@ -96,20 +96,20 @@ button:hover{
                 margin-bottom: .5rem;
                 display: block;
                 font-size: 2rem;
-                color: #282bf1;
+                /* color: #282bf1; */
         }
 
         input, textarea{
-                width: 100%;
-                display: block;
-                margin-bottom: 1rem;
-                box-sizing: border-box;
-                font: inherit;
-                border: 1px solid rgb(102, 87, 240);
-                padding: 0.25rem;
-                color: #5e6468;
+                /* width: 100%; */
+                /* display: block; */
+                /* margin-bottom: 1rem; */
+                /* box-sizing: border-box; */
+                /* font: inherit; */
+                /* border: 1px solid rgb(102, 87, 240); */
+                /* padding: 0.25rem; */
+                /* color: #5e6468; */
                 height: 3rem;
-                border-radius: 8px;
+                /* border-radius: 8px; */
                 font-size: 1.5rem;
         }
 
